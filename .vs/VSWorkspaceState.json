@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\docker-aks-lab-api",
+    "\\src\\docker-aks-lab-api\\bin",
+    "\\src\\docker-aks-lab-api\\bin\\Debug",
+    "\\src\\docker-aks-lab-api\\bin\\Debug\\netcoreapp3.1\\Properties",
+    "\\src\\docker-aks-lab-api\\Controllers",
+    "\\src\\docker-aks-lab-api\\Properties"
+  ],
+  "SelectedNode": "\\src\\docker-aks-lab-api\\docker-aks-lab-api.csproj",
+  "PreviewInSolutionExplorer": false
+}
