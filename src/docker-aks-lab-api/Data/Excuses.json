@@ -1,0 +1,10 @@
+{
+  "excuses": [
+    "That feature would be outside of the scope",
+    "It's always been like that",
+    "Well, at least it displays a very pretty error",
+    "This code was not supposed to go in to production yet",
+    "It can't be broken, it passes all unit tests",
+    "I have never seen that before in my life"
+  ]
+}
