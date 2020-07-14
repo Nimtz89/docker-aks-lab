@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using docker_aks_lab_app.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -18,19 +19,19 @@ namespace docker_aks_lab_app.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<ActionResult> Index()
         {
+            var model = new ExcuseModel();
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://localhost:5001/api/");
                 //HTTP GET
-                var responseTask = client.GetAsync("Excuses/getRandomExcuse");
-                responseTask.Wait();
-
-                var result = responseTask.Result;
+                var responseTask = await client.GetAsync("Excuses/getRandomExcuse");
+                var result = await responseTask.Content.ReadAsStringAsync();
+                model.Excuse = result;
             }
 
-            return View();
+            return View(model);
         }
     }
 }

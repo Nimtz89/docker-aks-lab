@@ -1,8 +1,9 @@
-﻿@{
+﻿@model  docker_aks_lab_app.Models.ExcuseModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Docker & AKS</h1>
-    <p>Initial commit</p>
+    <p>@Model.Excuse</p>
 </div>
