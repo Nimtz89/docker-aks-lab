@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
+      "projectUniqueName": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
       "projectName": "docker-aks-lab-app",
-      "projectPath": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
+      "projectPath": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
       "packagesPath": "C:\\Users\\anco.vandenberg\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\obj\\",
+      "outputPath": "C:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

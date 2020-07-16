@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/docker-aks-lab-app/docker-aks-lab-app/docker-aks-lab-app.csproj", "src/docker-aks-lab-app/docker-aks-lab-app/"]
-RUN dotnet restore "src/docker-aks-lab-app/docker-aks-lab-app/docker-aks-lab-app.csproj"
+COPY ["src/docker-aks-lab-app/docker-aks-lab-app.csproj", "src/docker-aks-lab-app/"]
+RUN dotnet restore "src/docker-aks-lab-app/docker-aks-lab-app.csproj"
 COPY . .
-WORKDIR "/src/src/docker-aks-lab-app/docker-aks-lab-app"
+WORKDIR "/src/docker-aks-lab-app"
 RUN dotnet build "docker-aks-lab-app.csproj" -c Release -o /app/build
 
 FROM build AS publish
