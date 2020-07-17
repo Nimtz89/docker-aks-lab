@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
+  "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,17 +20521,17 @@
   "RootNamespace": "docker_aks_lab_app",
   "Documents": [
     {
-      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\docker-aks-lab-app\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\Docker-aks-lab\\src\\docker-aks-lab-app\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
